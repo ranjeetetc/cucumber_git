@@ -123,13 +123,13 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19</version>
 				<configuration>
-					 <suiteXmlFiles> TestNG suite XML files 
+<!-- 					 <suiteXmlFiles> TestNG suite XML files 
 							<suiteXmlFile>testng.xml</suiteXmlFile> 
-					 </suiteXmlFiles> 
+					 </suiteXmlFiles>  -->
 					
-<!-- 				<includes>
+				<includes>
 						<include>**/*Runner_Cucumber_Junit.java</include>
-					</includes> -->
+					</includes>
 				</configuration>
 			</plugin>
 			<plugin>
