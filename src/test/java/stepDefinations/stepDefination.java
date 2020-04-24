@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 //import org.junit.runner.RunWith;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -37,13 +37,13 @@ public class stepDefination extends testbase {
 	public FirefoxOptions options;
 	public FirefoxProfile profile;
 	Alert alert;
-	Logger log;
+//	Logger log;
 	
 	@Given("^user set preference and launch \"([^\"]*)\"$")
     public void user_set_preference_and_launch_something(String strArg1) throws Throwable {
 //		WebDriverManager.chromedriver().setup();
 		WebDriverManager.firefoxdriver().setup();
-		log = Logger.getLogger("devpinoyLogger.class");
+//		log = Logger.getLogger("devpinoyLogger.class");
 //		log = Logger.getLogger(testbase.class);
 		profile = new FirefoxProfile();
 		//ChromeOptions options = new ChromeOptions();
@@ -66,11 +66,11 @@ public class stepDefination extends testbase {
 		driver = new FirefoxDriver(options);
 		act = new Actions(driver);
 		driver.get("https://demoqa.com/");
-		log.info("Website Opened");
+//		log.info("Website Opened");
 		driver.manage().window().maximize();
-		log.debug("Website Maximized");
+//		log.debug("Website Maximized");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); 
-		log.debug("Implicit wait set");
+//		log.debug("Implicit wait set");
 		System.out.println("HHHHHHHHHHHHHHHHHHHH");
 	}
 //	@Test

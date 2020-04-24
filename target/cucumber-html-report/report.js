@@ -109,104 +109,119 @@ formatter.match({
   "location": "stepDefination.user_set_preference_and_launch_something(String)"
 });
 formatter.result({
-  "duration": 9865502400,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-AUMHBJJ\u0027, ip: \u0027192.168.18.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18232, moz:profile: C:\\Users\\LENOVO\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7388070c-01d6-4f3e-9841-68da88aafcd8\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat stepDefinations.stepDefination.user_set_preference_and_launch_something(stepDefination.java:70)\r\n\tat ✽.Given user set preference and launch \"https://demoqa.com/\"(toolsQA.feature:5)\r\n",
-  "status": "failed"
+  "duration": 12713116200,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_drag_and_drop_text_1_and_text()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2308442500,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_selectable()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1292421200,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_resizeable()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1179804100,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_dropable()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1113788500,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_dragable()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1139579200,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_switch_window()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6541993200,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_switch_message_window()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10817411600,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_message_tab()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10634372800,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_table()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 31206545900,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_iframe()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 71648731600,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_form()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 11879064300,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_html_contact()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5772010300,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_keyboard_event()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3928264400,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_double_click()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1569650700,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_test_the_working_of_tooltip()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 15168434100,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.i_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 970367700,
+  "status": "passed"
 });
 });

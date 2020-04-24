@@ -20,14 +20,14 @@ public class demoqamethods extends testbase {
 	@Test(priority = 2)
 	public void interationSortable  () {
 		driver.findElement(By.xpath("//a[text() = \"Sortable\"]")).click();
-		log.debug("Cloicked sortable");
+//		log.debug("Cloicked sortable");
 		List <WebElement> eleSortable =  driver.findElements(By.xpath("//ul[@id=\"sortable\"]/li"));
 		WebElement target = eleSortable.get(0);
 		WebElement dest = eleSortable.get(1);
 		a = new Actions(driver);
 		Point p = dest.getLocation();
 		System.out.println("x is : "+ p.getX()+" And y is: "+p.getY());
-		log.debug("x is : "+ p.getX()+" And y is: "+p.getY());
+//		log.debug("x is : "+ p.getX()+" And y is: "+p.getY());
 		a.click(target).clickAndHold().moveToElement(dest).moveByOffset(0, 10).release().build().perform(); 
 	}
 	
