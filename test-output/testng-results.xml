@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="8550" started-at="2020-04-25T01:09:34 IST" finished-at="2020-04-25T01:09:42 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="Runner_TestNG_Cucumber.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerFiles.Runner_TestNG_Cucumber@458c1321]" name="feature" class="runnerFiles.Runner_TestNG_Cucumber"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FREE CRM Test" duration-ms="8550" started-at="2020-04-25T01:09:34 IST" finished-at="2020-04-25T01:09:42 IST">
+      <class name="runnerFiles.Runner_TestNG_Cucumber">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerFiles.Runner_TestNG_Cucumber@458c1321]" name="setUpClass" is-config="true" duration-ms="309" started-at="2020-04-25T01:09:34 IST" finished-at="2020-04-25T01:09:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerFiles.Runner_TestNG_Cucumber@458c1321]" name="feature" duration-ms="8063" started-at="2020-04-25T01:09:34 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-25T01:09:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Toolsqa examples]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AUMHBJJ', ip: '192.168.18.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 36856, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 154c1e25-c9b1-44d1-8df9-dfe0b6c9988f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AUMHBJJ', ip: '192.168.18.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 36856, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 154c1e25-c9b1-44d1-8df9-dfe0b6c9988f
+at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+at runnerFiles.Runner_TestNG_Cucumber.feature(Runner_TestNG_Cucumber.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AUMHBJJ', ip: '192.168.18.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 36856, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 154c1e25-c9b1-44d1-8df9-dfe0b6c9988f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at stepDefinations.stepDefination.user_set_preference_and_launch_something(stepDefination.java:70)
+at ✽.Given user set preference and launch "https://demoqa.com/"(toolsQA.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerFiles.Runner_TestNG_Cucumber@458c1321]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2020-04-25T01:09:42 IST" finished-at="2020-04-25T01:09:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerFiles.Runner_TestNG_Cucumber -->
+    </test> <!-- FREE CRM Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
