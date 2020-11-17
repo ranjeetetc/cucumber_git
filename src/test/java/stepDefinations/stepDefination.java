@@ -1,19 +1,9 @@
 package stepDefinations;
-import static org.testng.Assert.assertEquals;
 
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
-//import org.apache.log4j.Logger;
-//import org.junit.runner.RunWith;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -21,12 +11,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
-//import cucumber.api.junit.Cucumber;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import practicepackage.testbase;
+
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import static org.testng.Assert.assertEquals;
 
 
 //@RunWith(Cucumber.class)
@@ -410,13 +401,25 @@ public class stepDefination extends testbase {
 		cl.click();
 		driver.findElement(By.xpath("//a[text()='Datepicker']")).click();
 		driver.findElement(By.id("datepicker")).click();
-		WebElement tbl = driver.findElement(By.xpath("//table[@class='ui-datepicker-calendar']/tbody"));	
+		WebElement tbl = driver.findElement(By.xpath("//table[@class='ui-datepicker-calendar']/tbody"));
 		List<WebElement> tblRows = tbl.findElements(By.tagName("tr"));
-		System.out.println("Table has total rows: "+tblRows.size());
-		List <WebElement> tblRow_Column = tblRows.get(3).findElements(By.tagName("td"));
-		System.out.println("Total column in first row is : "+ tblRow_Column.size());
-		tblRow_Column.get(6).click();	
+		System.out.println("Table has total rows: " + tblRows.size());
+		List<WebElement> tblRow_Column = tblRows.get(3).findElements(By.tagName("td"));
+		System.out.println("Total column in first row is : " + tblRow_Column.size());
+		tblRow_Column.get(6).click();
 		driver.findElement(By.xpath("//a[text()='Checkboxradio']")).click();
 		driver.findElement(By.xpath("//label[text()='2 Star']")).click();
-    }
+	}
+
+	public void test() {
+
+	}
+
+	public void test1() {
+
+	}
+
+	public void test2() {
+
+	}
 }
