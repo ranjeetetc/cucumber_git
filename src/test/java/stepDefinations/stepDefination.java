@@ -419,4 +419,9 @@ public class stepDefination extends testbase {
 		driver.findElement(By.xpath("//a[text()='Checkboxradio']")).click();
 		driver.findElement(By.xpath("//label[text()='2 Star']")).click();
     }
+
+    public void test()
+	{
+
+	}
 }
