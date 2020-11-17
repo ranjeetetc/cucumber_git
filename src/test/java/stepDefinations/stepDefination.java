@@ -418,4 +418,8 @@ public class stepDefination extends testbase {
 	public void test1() {
 
 	}
+
+	public void test1() {
+
+	}
 }
